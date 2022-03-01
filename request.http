@@ -1,0 +1,8 @@
+POST http://localhost:4800/api/auth/store
+Content-Type: application/json
+
+{
+    "username": "test",
+    "password": "test",
+    "email": "test"
+}

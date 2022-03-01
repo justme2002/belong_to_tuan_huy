@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form method="POST">
+          <h1>SignUp Form</h1>
+          <hr>
+          <input type="text" placeholder="Username" name="username" id = "username" required>
+          <input type="text" placeholder="Email" name="email" id = "email" required>
+          <input type="password" placeholder="Password" name="password" id = "password" required>
+          <input type="password" placeholder="Confirm Password" name="password-confirmation" id = "password-confirmation" required>
+          <div class="clearfix">
+            <button type="submit">SIGN UP</button>
+          </div>
+          <div>
+            <p id = "message"></p>
+          </div>
+      </form>
+      <script src = "./script.js"></script>
+</body>
+
+</html>
